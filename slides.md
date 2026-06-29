@@ -127,3 +127,22 @@ This analysis highlights the importance of optimizing temperature settings to ac
 <iframe data-src='media/plots/machine1_resistance_boxplot_temperature_anova.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+
+-----
+
+:::: {.columns}
+::: {.column width="50%"}
+### Impact of Pressure and Temperature Interaction on Part Resistance (Machine 1)
+
+An ANOVA was performed to evaluate the combined effect of `Pressure` and `Temperature` on `PartResistance` for `Machine 1`. The results indicate a statistically significant interaction effect, meaning the effect of temperature on part resistance depends on the pressure level, and vice-versa.
+
+The boxplot visually confirms these findings, showing varying distributions of `PartResistance` across different `Pressure:Temperature` combinations. Lower resistance values are generally preferred, with an Upper Specification Limit (USL) of 10. There is no Lower Specification Limit (LSL).
+
+This analysis underscores the importance of considering both factors simultaneously for optimizing manufacturing conditions to achieve desired product quality and minimize variability in part resistance.
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/machine1_resistance_boxplot_pressure_temperature_anova.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
