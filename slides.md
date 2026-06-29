@@ -108,3 +108,22 @@ This analysis highlights the importance of optimizing pressure settings to achie
 <iframe data-src='media/plots/machine1_resistance_boxplot_pressure_anova.html' width='100%' height='500px' style='border:none;'></iframe>
 :::
 ::::
+
+-----
+
+:::: {.columns}
+::: {.column width="50%"}
+### Impact of Temperature on Part Resistance (Machine 1)
+
+An ANOVA was performed to evaluate the effect of varying `Temperature` on `PartResistance` for `Machine 1`. The results indicate a statistically significant influence of temperature levels on the part resistance.
+
+The boxplot visually confirms these findings, showing distinct distributions of `PartResistance` across different `Temperature` settings. Lower resistance values are generally preferred, with an Upper Specification Limit (USL) of 10. There is no Lower Specification Limit (LSL).
+
+This analysis highlights the importance of optimizing temperature settings to achieve desired product quality and minimize variability in part resistance.
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/machine1_resistance_boxplot_temperature_anova.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
